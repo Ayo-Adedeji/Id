@@ -187,8 +187,8 @@ h4 {
 button {
   padding: 10px 20px;
   font-size: 16px;
-  color: #121804;
-  background-color: #a3e635;
+  color: #4A4A4A;
+  background-color: #e0a1a8;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -214,6 +214,7 @@ button:hover {
 .learn-section {
   justify-items: center;
   background-color: #f1b7be;
+  
 }
 .about {
   display: grid;
@@ -238,6 +239,7 @@ button:hover {
   width: 80%;
   border-radius: 10px;
   transition: all 0.3s ease;
+  margin-bottom: 15px;
 }
 
 .details * {
@@ -270,7 +272,7 @@ h2 {
   color: black;
   text-decoration: underline;
   text-decoration-style: double;
-  text-decoration-color: rgb(75, 118, 75);
+  text-decoration-color: #881461;
 }
 .personal-details-obj:hover {
   cursor: pointer;
@@ -315,7 +317,6 @@ section {
   background: #FADADD;
   height: 150px;
   transition: all 0.3s ease;
-
   color: #4A4A4A(246, 245, 245);
 }
 .poly {
@@ -364,7 +365,7 @@ section {
   transform: translateY(0);
 }
 .timeline-content {
-  border: 2px solid rgb(150, 196, 150);
+  border: 2px solid #50103f;
   border-radius: 20px;
   border-style: dashed;
   padding: 15px;
@@ -408,6 +409,15 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+.www{
+    margin-bottom: 15px;
+
+}
+.wwww{
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: #881461;
+}
 .list {
   margin-top: 30px;
   margin: auto;
@@ -433,7 +443,7 @@ section {
   color: #4A4A4A;
 }
 .aon {
-  color: #a3e635;
+  color: #4A4A4A;
   margin-bottom: 60px;
 }
 .list-middle {
@@ -508,7 +518,7 @@ footer {
 }
 .ref {
   display: grid;
-  background: rgb(27, 51, 2);
+  background: #D291BC;
   height: 40px;
   width: 20%;
   border-radius: 10px;
@@ -960,8 +970,9 @@ footer {
       font-size: 18px;
       width: 85%;
     }
-    .now {
-        font-size: 10px;
+    p.now {
+        font-size: 22px;
+        
     }
 
     .edu {
@@ -1066,5 +1077,14 @@ footer {
 @media (max-width: 350px) {
   .typewriter {
     font-size: 30px;
+  }
+  p.now{
+    font-size: 20px;
+  }
+  main h1{
+    font-size: 39px;
+  }
+  .typewriter{
+    font-size: 25px;
   }
 }
