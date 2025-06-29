@@ -184,19 +184,20 @@ h4 {
   color: #666;
 }
 
-button {
+.button {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
   color: #4A4A4A;
   background-color: #e0a1a8;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: larger;
+  text-decoration: none;
   font-weight: 600;
   transition: all 0.5s ease;
 }
-button:hover {
+.button:hover {
   cursor: pointer;
   background-color: #a8e6cf;
   color: black;
@@ -312,6 +313,7 @@ section {
 }
 .uni {
   display: flex;
+  font-size: large;
   align-items: center;
   gap: 5px;
   background: #FADADD;
@@ -323,6 +325,7 @@ section {
   display: flex;
   align-items: center;
   gap: 5px;
+  font-size: larger;
   background: #FADADD;
   height: 150px;
 
@@ -372,9 +375,9 @@ section {
   transition: all 0.3s ease;
 }
 .post {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 600;
-  color: #D291BC;
+  color: #5D3954;
 }
 .work {
   font-size: 20px;
@@ -410,7 +413,7 @@ section {
   transform: translateY(0);
 }
 .www{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 
 }
 .wwww{
@@ -438,6 +441,7 @@ section {
 .list-it {
   color: #4A4A4A;
   text-align: center;
+  font-size: larger;
 }
 .referee {
   color: #4A4A4A;
@@ -469,6 +473,12 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+.www{
+  font-size: x-large;
+}
+.wwww{
+  font-size: x-large;
+}
 /* margin-bottom: 20px; */
 
 footer {
@@ -485,7 +495,7 @@ footer {
 .p-cert {
   text-align: center;
   padding: 20px;
-  font-size: 25px;
+  font-size: 35px;
   color: #5D3954;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -535,10 +545,15 @@ footer {
   border-radius: 15px;
   color: #4A4A4A;
   margin-bottom: 10px;
+  
+}
+.message-div a{
+  text-decoration: none;
 }
 .send {
   margin-bottom: 15px;
   font-size: larger;
+  text-decoration: none;
 }
 .ge {
   color: #5D3954;
@@ -563,6 +578,22 @@ footer {
   text-align: center;
   font-size: 40px;
   padding-top: 10px;
+  margin-bottom: 20px;
+}
+.fa-facebook-f{
+  font-size: x-large;
+}
+.fa-facebook-f:hover{
+color: #50103f;
+transform: translateY(-5px);
+}
+.fa-instagram{
+  font-size: x-large;
+margin-left: 5px;
+}
+.fa-instagram:hover{
+color: #50103f;
+transform: translateY(-5px)
 }
 .font {
   font-size: 23px;
@@ -616,6 +647,7 @@ footer {
 .ref:hover .aon {
   color: #08271d;
 }
+
 
 @media (max-width: 1200px) {
   .hide2 {
@@ -747,6 +779,7 @@ footer {
   }
   .list-middle {
     font-size: 23px;
+    margin-top: 20px;
   }
   .pro {
     font-size: 30px;
@@ -870,6 +903,9 @@ footer {
       text-decoration: none;
       font-size: 20px;
     }
+       .list-middle{
+      margin-top: 20px;
+    }
 
     .header,
     .header-middle {
@@ -974,6 +1010,10 @@ footer {
         font-size: 22px;
         
     }
+    .ob{
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
 
     .edu {
       font-size: 20px;
@@ -993,7 +1033,7 @@ footer {
     .uni,
     .poly {
       font-size: 15px;
-      font-weight: 500;
+      font-weight: 600;
     }
     .timeline-container {
       grid-template-columns: 1fr;
@@ -1010,6 +1050,10 @@ footer {
       justify-self: center;
       text-decoration: none;
       font-size: 20px;
+      
+    }
+    .list-middle{
+      margin-top: 20px;
     }
 
     .header,
@@ -1087,4 +1131,7 @@ footer {
   .typewriter{
     font-size: 25px;
   }
+     .list-middle{
+      margin-top: 20px;
+    }
 }
